@@ -1,0 +1,101 @@
+body {
+    font-family: arial,sans-serif;
+}
+
+a {
+    opacity: 0.75;
+    margin: 0px 0px 0px 13px;
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+}
+
+#header {
+    font-size: 13px;
+    padding-top: 15px;
+    margin-bottom: 100px;
+}
+
+#headerLeft {
+    padding-left: 15px;
+    position: absolute;
+    left: 0px;
+}
+
+#headerRight {
+    padding-right: 15px;
+    position: absolute;
+    right: 70px;
+}
+
+#topImg {
+    position: absolute;
+    clip-path: inset(40px 370px 0px 125px);
+    margin-top: -46px;
+    margin-left: -110px;
+}
+
+#googleLogo {
+    margin-top: 175px;
+    text-align: center;
+}
+
+#searchBox {
+    text-align: center;
+}
+
+#magGlass {
+    position: relative;
+    top: 2.25px;
+    left: -592px;
+    width: 15px;
+}
+
+#mic {
+    position: relative;
+    top: 4px;
+    left: -75px;
+    width: 15px;
+}
+
+#searchBox input {
+    font-size: 16px;
+    width: 500px;
+    border-radius: 45px;
+    margin: 20px;
+    padding: 12px 40px 12px 40px;
+    outline: inherit;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+}
+
+#buttons {
+    text-align: center;
+}
+
+#buttons button {
+    font-size: 15px;
+    color: #1306068f;
+    background-color: #f2f2f2;
+    border-style: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    outline: inherit;
+
+}
+
+#buttons button:hover {
+    border: #c6c6c6 1px solid;
+    color: #222222;
+    cursor: pointer;
+}
+
+#buttons button:focus {
+    border-color: #4d90fe;
+}
+
+#footer {
+    bottom:200px;
+}
