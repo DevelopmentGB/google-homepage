@@ -16,6 +16,11 @@ a {
     margin-bottom: 100px;
 }
 
+a:hover {
+    opacity: 1.0;
+    text-decoration: underline;
+}
+
 #headerLeft {
     padding-left: 15px;
     position: absolute;
@@ -27,12 +32,14 @@ a {
     position: absolute;
     right: 70px;
 }
+#headerRight img {
+    opacity: 0.75;
+}
 
 #topImg {
     position: absolute;
-    clip-path: inset(40px 370px 0px 125px);
-    margin-top: -46px;
-    margin-left: -110px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
 #googleLogo {
@@ -49,6 +56,7 @@ a {
     top: 2.25px;
     left: -592px;
     width: 15px;
+    opacity: 0.35;
 }
 
 #mic {
@@ -56,6 +64,9 @@ a {
     top: 4px;
     left: -75px;
     width: 15px;
+}
+#mic:hover {
+    cursor:pointer;
 }
 
 #searchBox input {
@@ -97,5 +108,25 @@ a {
 }
 
 #footer {
-    bottom:200px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    border: 1px solid #e6e6e6;
+    background-color: #f2f2f2;
+    padding: 12px 0 12px 0;
+    font-size: 13px;
+    width: 100%;
+}
+
+#footerLeft {
+    display: inline;
+}
+#footerRight {
+    position: absolute;
+    display: inline;
+    right: 25px;
+}
+
+#footer a:focus {
+    color: red;
 }
